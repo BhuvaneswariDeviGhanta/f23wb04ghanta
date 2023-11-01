@@ -8,6 +8,7 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var dogRouter = require('./routes/dog');
 var boardRouter = require('./routes/board');
+var chooseRouter = require('./routes/choose');
 
 
 
@@ -27,6 +28,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/dog', dogRouter);
 app.use('/board', boardRouter);
+app.use('/choose', chooseRouter);
 
 
 
